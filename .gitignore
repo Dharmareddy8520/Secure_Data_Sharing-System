@@ -1,0 +1,46 @@
+# Virtual environment
+pro /
+env/
+
+# Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Sensitive files
+*.json  # Excludes all .json files (e.g., firebase_service_account.json)
+master_key.pem  # Excludes the master key file
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Logs and runtime data
+*.log
+*.pid
+
+# macOS-specific files
+.DS_Store
+
+# Windows-specific files
+Thumbs.db
+ehthumbs.db
+
+# Dependency directories (if any)
+dist/
+build/
+*.egg-info/
+
+# Other common exclusions
+*.md5
+*.sha1
+*.sha256
